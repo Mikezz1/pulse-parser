@@ -1,0 +1,6 @@
+---
+max_page_length: 1200000 # Should be higher for less popular stocks
+sleep: 0.2
+stocks: ['SBER','YNDX','LNTA']
+max_messages: 5000
+save_every: 17 # each steps loads about 60 messages, so we would save results each 1020
